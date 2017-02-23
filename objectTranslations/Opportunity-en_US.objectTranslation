@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Opportunity Forecasting</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Opportunity Forecasts</value>
+        </caseValues>
+        <name>opportunity_forecast</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Additional Info --></label>
+        <name>Additional_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Info --></label>
+        <name>Address_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Age --></label>
+        <name>Age_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- AutorabitExtId__c --></label>
+        <name>AutorabitExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company URL --></label>
+        <name>Company_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitors --></label>
+        <name>Competitors__c</name>
+        <picklistValues>
+            <masterLabel>AssureClick</masterLabel>
+            <translation><!-- AssureClick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlassian - Bamboo</masterLabel>
+            <translation><!-- Atlassian - Bamboo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlassian - Others</masterLabel>
+            <translation><!-- Atlassian - Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copado</masterLabel>
+            <translation><!-- Copado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dream factory – Cascade &amp; others</masterLabel>
+            <translation><!-- Dream factory – Cascade &amp; others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dream factory – Snapshot</masterLabel>
+            <translation><!-- Dream factory – Snapshot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flosum</masterLabel>
+            <translation><!-- Flosum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gearset</masterLabel>
+            <translation><!-- Gearset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jenkins</masterLabel>
+            <translation><!-- Jenkins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jitterbit</masterLabel>
+            <translation><!-- Jitterbit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odaseva</masterLabel>
+            <translation><!-- Odaseva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Provar</masterLabel>
+            <translation><!-- Provar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Billing Country --></help>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount --></label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluation End Date --></label>
+        <name>Evaluation_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluation Start Date --></label>
+        <name>Evaluation_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable if the Customer is eligible for Premier support.
+If this is not enabled ,it means customer is availing standard support services. --></help>
+        <label><!-- Is eligibile for Premier support --></label>
+        <name>Is_eligibile_for_Premier_support__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Advertisement</masterLabel>
+            <translation><!-- Advertisement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation><!-- Cold Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conference</masterLabel>
+            <translation><!-- Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation><!-- Data.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation><!-- Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DreamForce 15</masterLabel>
+            <translation><!-- DreamForce 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DreamForce 16</masterLabel>
+            <translation><!-- DreamForce 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation><!-- Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Referral</masterLabel>
+            <translation><!-- Employee Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Customer</masterLabel>
+            <translation><!-- Existing Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Referral</masterLabel>
+            <translation><!-- External Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY Tour 16&apos;</masterLabel>
+            <translation><!-- NY Tour 16&apos; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect Cloud</masterLabel>
+            <translation><!-- Prospect Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations</masterLabel>
+            <translation><!-- Public Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Generated</masterLabel>
+            <translation><!-- Self Generated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar - Internal</masterLabel>
+            <translation><!-- Seminar - Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar - Partner</masterLabel>
+            <translation><!-- Seminar - Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Show</masterLabel>
+            <translation><!-- Trade Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Site</masterLabel>
+            <translation><!-- Web Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website - Contact Form</masterLabel>
+            <translation><!-- Website - Contact Form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website - Webinar</masterLabel>
+            <translation><!-- Website - Webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Word of mouth</masterLabel>
+            <translation><!-- Word of mouth --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LinkedIn URL --></label>
+        <name>LinkedIn_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of Subscriptions --></label>
+        <name>No_of_Subscriptions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Number --></label>
+        <name>Opportunity_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Type --></label>
+        <name>Opportunity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Competitors --></label>
+        <name>Other_Competitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Hrs --></label>
+        <name>PS_Hrs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Playground Set --></label>
+        <name>Playground_Set__c</name>
+        <picklistValues>
+            <masterLabel>Playground Set 01</masterLabel>
+            <translation><!-- Playground Set 01 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 02</masterLabel>
+            <translation><!-- Playground Set 02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 03</masterLabel>
+            <translation><!-- Playground Set 03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 04</masterLabel>
+            <translation><!-- Playground Set 04 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 05</masterLabel>
+            <translation><!-- Playground Set 05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 06</masterLabel>
+            <translation><!-- Playground Set 06 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 07</masterLabel>
+            <translation><!-- Playground Set 07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 08</masterLabel>
+            <translation><!-- Playground Set 08 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 09</masterLabel>
+            <translation><!-- Playground Set 09 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 10</masterLabel>
+            <translation><!-- Playground Set 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 11</masterLabel>
+            <translation><!-- Playground Set 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 12</masterLabel>
+            <translation><!-- Playground Set 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 13</masterLabel>
+            <translation><!-- Playground Set 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 14</masterLabel>
+            <translation><!-- Playground Set 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 15</masterLabel>
+            <translation><!-- Playground Set 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 16</masterLabel>
+            <translation><!-- Playground Set 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 17</masterLabel>
+            <translation><!-- Playground Set 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 18</masterLabel>
+            <translation><!-- Playground Set 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 19</masterLabel>
+            <translation><!-- Playground Set 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 20</masterLabel>
+            <translation><!-- Playground Set 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 21</masterLabel>
+            <translation><!-- Playground Set 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 22</masterLabel>
+            <translation><!-- Playground Set 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 23</masterLabel>
+            <translation><!-- Playground Set 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 24</masterLabel>
+            <translation><!-- Playground Set 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Set 25</masterLabel>
+            <translation><!-- Playground Set 25 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pre-Sales Engineer --></label>
+        <name>Pre_SalesEngineer__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <name>StageName</name>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation><!-- Closed Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation><!-- Closed Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo Performed</masterLabel>
+            <translation><!-- Demo Performed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free POC</masterLabel>
+            <translation><!-- Free POC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiation</masterLabel>
+            <translation><!-- Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid POC</masterLabel>
+            <translation><!-- Paid POC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PlayGround</masterLabel>
+            <translation><!-- PlayGround --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation><!-- Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROI document</masterLabel>
+            <translation><!-- ROI document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled Demo</masterLabel>
+            <translation><!-- Scheduled Demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scoping</masterLabel>
+            <translation><!-- Scoping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Completed</masterLabel>
+            <translation><!-- Trial Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Expired</masterLabel>
+            <translation><!-- Trial Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trial Initiated</masterLabel>
+            <translation><!-- Trial Initiated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresponsive</masterLabel>
+            <translation><!-- Unresponsive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Team Size --></label>
+        <name>Team_Size__c</name>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Existing Business</masterLabel>
+            <translation><!-- Existing Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Business</masterLabel>
+            <translation><!-- New Business --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Version Control Type --></label>
+        <name>Version_Control_Type__c</name>
+        <picklistValues>
+            <masterLabel>BitBucket</masterLabel>
+            <translation><!-- BitBucket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GitHub</masterLabel>
+            <translation><!-- GitHub --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GitLab</masterLabel>
+            <translation><!-- GitLab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perforce</masterLabel>
+            <translation><!-- Perforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SVN</masterLabel>
+            <translation><!-- SVN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TFS</masterLabel>
+            <translation><!-- TFS --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Revenue Information --></label>
+            <section>Revenue Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- AutoRABIT --></label>
+        <name>AutoRABIT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BPM Record Type --></label>
+        <name>BPM_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Consulting Record Type --></label>
+        <name>Consulting_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Migile Record Type --></label>
+        <name>Migile_Record_Type</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Scope_Information_Document --></label>
+        <name>Scope_Information_Document</name>
+    </webLinks>
+</CustomObjectTranslation>

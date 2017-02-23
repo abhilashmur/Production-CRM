@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Professional Service</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Professional Services</value>
+    </caseValues>
+    <fields>
+        <help><!-- Is the Project Active? --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Per hour bill rate --></help>
+        <label><!-- Billable Rate --></label>
+        <name>Billable_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Auto calculated as Allocated PS hours * Billable rate ($250 per Hr) --></help>
+        <label><!-- Budget ($) --></label>
+        <name>Budget_Dollar__c</name>
+    </fields>
+    <fields>
+        <help><!-- Remaining hours --></help>
+        <label><!-- PS Unused (Hrs) --></label>
+        <name>Budget_Unused__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the budget allocated to the Project/Task. --></help>
+        <label><!-- Budget --></label>
+        <name>Budget__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of PS hours assigned to this Project --></help>
+        <label><!-- Budget (in Hrs) --></label>
+        <name>Budget_in_Hrs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Primary SPOC --></help>
+        <label><!-- Customer Contact --></label>
+        <name>Customer_Contact__c</name>
+        <relationshipLabel><!-- Professional Services --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Account to which the Project/Task is allocated. --></help>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Professional Services --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Evaluation End Date --></label>
+        <name>Evaluation_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluation Start Date --></label>
+        <name>Evaluation_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of billable working hours - time entries that are marked &quot;no charge&quot; are excluded --></help>
+        <label><!-- Hours Billed --></label>
+        <name>Hours_billed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>Lead__c</name>
+        <relationshipLabel><!-- Professional Services --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- No of Subscriptions --></label>
+        <name>No_of_Subscriptions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Contact Name --></label>
+        <name>Opportunity_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Oppty, if any? --></help>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Professional Services --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This is pulled from the PS hours field in Opportunity --></help>
+        <label><!-- Allocated PS Hours --></label>
+        <name>PS__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Item --></label>
+        <name>PS_item__c</name>
+        <picklistValues>
+            <masterLabel>Onsite AutoRABIT Customer Success Architect</masterLabel>
+            <translation><!-- Onsite AutoRABIT Customer Success Architect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsite AutoRABIT Customer Success Engineer</masterLabel>
+            <translation><!-- Onsite AutoRABIT Customer Success Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PreSales Activity</masterLabel>
+            <translation><!-- PreSales Activity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Professional Services - Annual Packs</masterLabel>
+            <translation><!-- Standard Professional Services - Annual Packs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turn Key Continuous Delivery Set up with AutoRABIT</masterLabel>
+            <translation><!-- Turn Key Continuous Delivery Set up with AutoRABIT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pre-Sales Engg --></label>
+        <name>Pre_Sales_Engg__c</name>
+    </fields>
+    <fields>
+        <help><!-- Revenue generated till now. --></help>
+        <label><!-- Revenue Generated --></label>
+        <name>Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Size --></label>
+        <name>Team_Size__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total hours spent --></help>
+        <label><!-- Total Hours Spent --></label>
+        <name>Total_Hours_Spent__c</name>
+    </fields>
+    <layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- Burn Stats --></label>
+            <section>Burn Stats</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Details --></label>
+            <section>Opportunity Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>PS Details</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Generate_PDF --></label>
+        <name>Generate_PDF</name>
+    </webLinks>
+</CustomObjectTranslation>

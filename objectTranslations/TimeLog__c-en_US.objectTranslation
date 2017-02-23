@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TimeLog</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TimeLogs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account (Customer) --></label>
+        <name>Account_Customer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Any unbillable hours spent? --></help>
+        <label><!-- Break --></label>
+        <name>Break__c</name>
+    </fields>
+    <fields>
+        <help><!-- What is this about? --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculates time spent in hours. End - Start - Break = Duration --></help>
+        <label><!-- Duration --></label>
+        <name>Duration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the End time for the TimeLog --></help>
+        <label><!-- End Time --></label>
+        <name>End_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Next Discussion with the Customer --></help>
+        <label><!-- Next Discussion Date --></label>
+        <name>Next_Discussion_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check the box to avoid billing the client for this TimeLog entry --></help>
+        <label><!-- No Charge --></label>
+        <name>No_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- PS Item --></label>
+        <name>PS_Item__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the PS sub item related to the PS Item --></help>
+        <label><!-- PS Sub Item --></label>
+        <name>PS_Sub_Item__c</name>
+        <picklistValues>
+            <masterLabel>Annual - AutoRABIT Training Pack</masterLabel>
+            <translation><!-- Annual - AutoRABIT Training Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual - Complex Sandbox Metadata Deployment [ Upto 4 Sandboxes ]</masterLabel>
+            <translation><!-- Annual - Complex Sandbox Metadata Deployment [ Upto 4 Sandboxes ] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual - Pre-CI Sandbox Alignment</masterLabel>
+            <translation><!-- Annual - Pre-CI Sandbox Alignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual - Production Deployment Hotline 	[ Upto 6 client releases]</masterLabel>
+            <translation><!-- Annual - Production Deployment Hotline 	[ Upto 6 client releases] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual - Salesforce Production Org Split/ setup</masterLabel>
+            <translation><!-- Annual - Salesforce Production Org Split/ setup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AutoRABIT Administration Set Up</masterLabel>
+            <translation><!-- AutoRABIT Administration Set Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AutoRABIT User Training</masterLabel>
+            <translation><!-- AutoRABIT User Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discussion and Follow-ups with Product team for any issues</masterLabel>
+            <translation><!-- Discussion and Follow-ups with Product team for any issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overview Demo</masterLabel>
+            <translation><!-- Overview Demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Infrastructure Prep</masterLabel>
+            <translation><!-- Playground Infrastructure Prep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Review sessions, touch points</masterLabel>
+            <translation><!-- Playground Review sessions, touch points --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground Task Review and sign-off</masterLabel>
+            <translation><!-- Playground Task Review and sign-off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground session running through the scenarios</masterLabel>
+            <translation><!-- Playground session running through the scenarios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playground wrap-up and transition to Sales Team</masterLabel>
+            <translation><!-- Playground wrap-up and transition to Sales Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Automation Discovery</masterLabel>
+            <translation><!-- Release Automation Discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Automation Modelling with AutoRABIT</masterLabel>
+            <translation><!-- Release Automation Modelling with AutoRABIT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Project to which you would need the time to be rolled up. --></help>
+        <label><!-- Professional Service --></label>
+        <name>Related_Project__c</name>
+        <relationshipLabel><!-- TimeLogs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Revenue generated by this timelog --></help>
+        <label><!-- Revenue --></label>
+        <name>Revenue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter your start time for this entry --></help>
+        <label><!-- Start Time --></label>
+        <name>Start_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Your Name? --></help>
+        <label><!-- AutoRABIT Engg --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- TimeLogs --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>TimeLog Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <workflowTasks>
+        <description><!-- Your next discussion date as per the Timelog --></description>
+        <name>Your_next_discussion</name>
+        <subject><!-- Your next discussion --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>
