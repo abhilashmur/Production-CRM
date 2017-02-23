@@ -34,6 +34,10 @@
                 <field>Pre_SalesEngineer__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Implementation_Start_Date__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Country__c</field>
             </layoutItems>
@@ -66,6 +70,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Implementation_Engineer__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Implementation_End_Date__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

@@ -398,6 +398,16 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Implementation_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Implementation End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Implementation_Engineer__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
@@ -409,6 +419,16 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Implementation_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Implementation Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>IsPrivate</fullName>

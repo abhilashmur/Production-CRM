@@ -281,7 +281,9 @@
         <members>Opportunity.Discount__c</members>
         <members>Opportunity.Evaluation_End_Date__c</members>
         <members>Opportunity.Evaluation_Start_Date__c</members>
+        <members>Opportunity.Implementation_End_Date__c</members>
         <members>Opportunity.Implementation_Engineer__c</members>
+        <members>Opportunity.Implementation_Start_Date__c</members>
         <members>Opportunity.Is_eligibile_for_Premier_support__c</members>
         <members>Opportunity.LinkedIn_URL__c</members>
         <members>Opportunity.No_of_Subscriptions__c</members>
