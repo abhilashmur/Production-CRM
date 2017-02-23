@@ -65,6 +65,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Implementation_Engineer__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Is_eligibile_for_Premier_support__c</field>
             </layoutItems>
         </layoutColumns>
